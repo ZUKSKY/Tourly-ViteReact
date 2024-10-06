@@ -1,4 +1,6 @@
-
+import Popular1 from '../../assets/images/popular-1.jpg';
+import Popular2 from '../../assets/images/popular-2.jpg';
+import Popular3 from '../../assets/images/popular-3.jpg';
 function PopularDestinations() {
   return (
     <section className="popular" id="destination">
@@ -14,7 +16,7 @@ function PopularDestinations() {
           <li>
             <div className="popular-card">
               <figure className="card-img">
-                <img src="/src/assets/images/popular-1.jpg" alt="San Miguel, Italy" loading="lazy" />
+                <img src={Popular1} alt="San Miguel, Italy" loading="lazy" />
               </figure>
               <div className="card-content">
                 <div className="card-rating">
@@ -34,7 +36,7 @@ function PopularDestinations() {
           <li>
             <div className="popular-card">
               <figure className="card-img">
-                <img src="/src/assets/images/popular-2.jpg" alt="Burj Khalifa, Dubai" loading="lazy" />
+                <img src={Popular2} alt="Burj Khalifa, Dubai" loading="lazy" />
               </figure>
               <div className="card-content">
                 <div className="card-rating">
@@ -54,7 +56,7 @@ function PopularDestinations() {
           <li>
             <div className="popular-card">
               <figure className="card-img">
-                <img src="/src/assets/images/popular-3.jpg" alt="Kyoto Temple, Japan" loading="lazy" />
+                <img src={Popular3} alt="Kyoto Temple, Japan" loading="lazy" />
               </figure>
               <div className="card-content">
                 <div className="card-rating">

@@ -1,3 +1,9 @@
+import Gallery1 from '../../assets/images/gallery-1.jpg';
+import Gallery2 from '../../assets/images/gallery-2.jpg';
+import Gallery3 from '../../assets/images/gallery-3.jpg';
+import Gallery4 from '../../assets/images/gallery-4.jpg';
+import Gallery5 from '../../assets/images/gallery-5.jpg';
+
 
 function GallerySection() {
   return (
@@ -13,31 +19,31 @@ function GallerySection() {
         <ul className="gallery-list">
           <li className="gallery-item">
             <figure className="gallery-image">
-              <img src="/src/assets/images/gallery-1.jpg" alt="Gallery image" />
+              <img src={Gallery1} alt="Gallery image" />
             </figure>
           </li>
 
           <li className="gallery-item">
             <figure className="gallery-image">
-              <img src="/src/assets/images/gallery-2.jpg" alt="Gallery image" />
+              <img src={Gallery2} alt="Gallery image" />
             </figure>
           </li>
 
           <li className="gallery-item">
             <figure className="gallery-image">
-              <img src="/src/assets/images/gallery-3.jpg" alt="Gallery image" />
+              <img src={Gallery3} alt="Gallery image" />
             </figure>
           </li>
 
           <li className="gallery-item">
             <figure className="gallery-image">
-              <img src="/src/assets/images/gallery-4.jpg" alt="Gallery image" />
+              <img src={Gallery4} alt="Gallery image" />
             </figure>
           </li>
 
           <li className="gallery-item">
             <figure className="gallery-image">
-              <img src="/src/assets/images/gallery-5.jpg" alt="Gallery image" />
+              <img src={Gallery5} alt="Gallery image" />
             </figure>
           </li>
         </ul>

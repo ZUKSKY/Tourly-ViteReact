@@ -1,4 +1,3 @@
-  ![GitHub repo size](https://img.shields.io/github/repo-size/ZUKSKY/tourly-vitereact)
   ![GitHub stars](https://img.shields.io/github/stars/ZUKSKY/tourly-vitereact?style=social)
   ![GitHub forks](https://img.shields.io/github/forks/ZUKSKY/tourly-vitereact?style=social)
 

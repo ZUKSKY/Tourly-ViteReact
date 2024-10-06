@@ -1,3 +1,7 @@
+import Package1 from '../../assets/images/packege-1.jpg';
+import Package2 from '../../assets/images/packege-2.jpg';
+import Package3 from '../../assets/images/packege-3.jpg';
+
 function PackageSection() {
   return (
     <section className="package" id="package">
@@ -13,7 +17,7 @@ function PackageSection() {
           <li>
             <div className="package-card">
               <figure className="card-banner">
-                <img src="/src/assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy" />
+                <img src={Package1} alt="Experience The Great Holiday On Beach" loading="lazy" />
               </figure>
               <div className="card-content">
                 <h3 className="h3 card-title">Experience The Great Holiday On Beach</h3>
@@ -62,7 +66,7 @@ function PackageSection() {
           <li>
             <div className="package-card">
               <figure className="card-banner">
-                <img src="/src/assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy" />
+                <img src={Package2} alt="Summer Holiday To The Oxolotan River" loading="lazy" />
               </figure>
               <div className="card-content">
                 <h3 className="h3 card-title">Summer Holiday To The Oxolotan River</h3>
@@ -111,7 +115,7 @@ function PackageSection() {
           <li>
             <div className="package-card">
               <figure className="card-banner">
-                <img src="/src/assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy" />
+                <img src={Package3} alt="Santorini Island's Weekend Vacation" loading="lazy" />
               </figure>
               <div className="card-content">
                 <h3 className="h3 card-title">Santorini Island&apos;s Weekend Vacation</h3>
