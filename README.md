@@ -10,7 +10,7 @@ Welcome to the **Tourly Agency** project! This is a modern web application built
 
 This project was created as a learning exercise to convert static HTML, CSS, and vanilla JavaScript into a dynamic React application using Vite. The goal is to gain hands-on experience with React's component-based architecture and to understand how to integrate modern development tools like Vite for fast and efficient builds.
 
-### Demo Screeshots
+### Demo Screenshots
 
 ![Tourly Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
