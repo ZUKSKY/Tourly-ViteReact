@@ -15,7 +15,7 @@ This project was created as a learning exercise to convert static HTML, CSS, and
 
 ![Tourly Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
-<a href="#"><strong>➥ Live Demo</strong></a>
+<a href="https://tourly-zuksky.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 ## Table of Contents
 
